@@ -1,2 +1,2 @@
 # azuredevops-cicd-argocd
-AzureDevops-Azure CiCd pipeline | Argocd | Multi Microservices (Docker image,AKS,ACR,Yaml)-votingapp
+CI/CD pipeline using Azure DevOps, Docker, Kubernetes and Argo CD (Docker image,AKS,ACR,Yaml,Multi microservices-votingapp)
