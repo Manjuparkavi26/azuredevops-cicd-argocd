@@ -223,9 +223,6 @@ This project generally depends on the following Azure services:
 
 4.Azure Resource Group
 
-5.Azure Active Directory / Service Principals (if used)
-
-Optional: Azure Key Vault for secrets and credentials
 
 
 
