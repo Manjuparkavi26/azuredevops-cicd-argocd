@@ -295,7 +295,7 @@ Terraform-provisioned AKS cluster connected with Azure Container Registry.
 
 where the deployed services are healthy and running in the AKS cluster. It confirms that the GitOps-based deployment pipeline is working correctly and the application is being delivered continuously from the configured Git repository.
 
-## Argocd Login
+## ArgoCD Login
 
 
 <img width="1600" height="889" alt="WhatsApp Image 2026-10-12 at 11 25 50 AM" src="https://github.com/user-attachments/assets/2775432b-9376-447d-9a46-1983bbf35fb9" />
@@ -303,12 +303,12 @@ where the deployed services are healthy and running in the AKS cluster. It confi
 
 <img width="1600" height="929" alt="WhatsApp Image 2026-10-12 at 11 25 51 AM" src="https://github.com/user-attachments/assets/be7efdf7-f41f-4c54-81be-da18e7c8003e" />
 
-## Application Details in Argocd
+## Application Details in ArgoCD
 
 
 <img width="1600" height="1199" alt="WhatsApp Image 2026-10-12 at 11 25 51 AM (1)" src="https://github.com/user-attachments/assets/16cb16c8-8333-4d9c-9a0e-4c80bf8b9b0f" />
 
-## Apllication 
+## Application of voting app 
 
 
 <img width="1600" height="1036" alt="WhatsApp Image 2026-10-12 at 11 25 51 AM (2)" src="https://github.com/user-attachments/assets/0b57055b-a1c5-4b17-98e8-224cfd241c36" />
