@@ -210,6 +210,16 @@ ArgoCD continuously monitors Git and synchronizes the cluster state with the des
 The application is available through the cluster and external access configuration such as Ingress or LoadBalancer.
 
 
+## Kubernetes Deployment Verification
+
+Verifying the deployment using kubectl.
+
+Deployment: 3/3 replicas available
+
+Pods: Running
+
+Service: LoadBalancer
+
 
 ## Azure Resources Used
 
@@ -253,6 +263,55 @@ ArgoCD Sync
         |
         
 AKS Deployment Updated
+
+
+## Screenshots
+
+## Azure DevOps Pipeline
+
+Shows the successful execution of the Build, Test, Docker and Deploy stages.
+
+<img width="1600" height="805" alt="WhatsApp Image 2026-10-12 at 11 15 08 AM" src="https://github.com/user-attachments/assets/f8a89429-7153-42f1-bb28-243abc0d6d1e" />
+
+
+## Azure Container Registry (ACR)
+
+Docker images automatically pushed to Azure Container Registry through the CI/CD pipeline.
+
+<img width="1600" height="809" alt="WhatsApp Image 2026-10-12 at 11 15 58 AM" src="https://github.com/user-attachments/assets/2cd15c81-edc5-483d-b68b-34ae50fad7bc" />
+
+<img width="1600" height="802" alt="WhatsApp Image 2026-10-12 at 11 18 16 AM" src="https://github.com/user-attachments/assets/0f61e8cd-f367-41ea-a0b8-569a54a305e3" />
+
+## Azure Kubernetes Service (AKS)
+
+Terraform-provisioned AKS cluster connected with Azure Container Registry.
+
+<img width="1600" height="801" alt="WhatsApp Image 2026-10-12 at 11 19 08 AM" src="https://github.com/user-attachments/assets/87c83476-0403-4f15-9c71-a0c149bdd9b9" />
+
+
+<img width="1600" height="802" alt="WhatsApp Image 2026-10-12 at 11 16 57 AM" src="https://github.com/user-attachments/assets/c0334763-b1b7-41f6-87af-22e9e685e6f6" />
+
+## ArgoCD dashboard after a successful application sync
+
+where the deployed services are healthy and running in the AKS cluster. It confirms that the GitOps-based deployment pipeline is working correctly and the application is being delivered continuously from the configured Git repository.
+
+## Argocd Login
+
+
+<img width="1600" height="889" alt="WhatsApp Image 2026-10-12 at 11 25 50 AM" src="https://github.com/user-attachments/assets/2775432b-9376-447d-9a46-1983bbf35fb9" />
+
+
+<img width="1600" height="929" alt="WhatsApp Image 2026-10-12 at 11 25 51 AM" src="https://github.com/user-attachments/assets/be7efdf7-f41f-4c54-81be-da18e7c8003e" />
+
+## Application Details in Argocd
+
+
+<img width="1600" height="1199" alt="WhatsApp Image 2026-10-12 at 11 25 51 AM (1)" src="https://github.com/user-attachments/assets/16cb16c8-8333-4d9c-9a0e-4c80bf8b9b0f" />
+
+## Apllication 
+
+
+<img width="1600" height="1036" alt="WhatsApp Image 2026-10-12 at 11 25 51 AM (2)" src="https://github.com/user-attachments/assets/0b57055b-a1c5-4b17-98e8-224cfd241c36" />
 
 
 ## Conclusion
