@@ -177,44 +177,55 @@ azuredevops-cicd-argocd/
 
 
 ## CI/CD Flow
+
 The normal pipeline flow is:
 
-Code Commit
+1. Code Commit
+
 A developer updates source code and pushes it to Git.
 
-Trigger Azure DevOps Pipeline
+2.Trigger Azure DevOps Pipeline
+
 The Azure DevOps pipeline starts automatically after a commit or pull request.
 
-Build Docker Images
+3.Build Docker Images
+
 Each microservice is built into a container image.
 
-Push to ACR
+4.Push to ACR
+
 Built images are tagged and placed in Azure Container Registry.
 
-Deploy to AKS
+5.Deploy to AKS
+
 The deployment manifests or Helm values are updated and applied to the Kubernetes cluster.
 
-ArgoCD Sync
+6.ArgoCD Sync
+
 ArgoCD continuously monitors Git and synchronizes the cluster state with the desired application state.
 
-Production Ready
+7.Production Ready
+
 The application is available through the cluster and external access configuration such as Ingress or LoadBalancer.
 
 
 
 ## Azure Resources Used
+
 This project generally depends on the following Azure services:
 
-Azure DevOps
-Azure Container Registry (ACR)
-Azure Kubernetes Service (AKS)
-Azure Resource Group
-Azure Active Directory / Service Principals (if used)
+1.Azure DevOps
+2.Azure Container Registry (ACR)
+3.Azure Kubernetes Service (AKS)
+4.Azure Resource Group
+5.Azure Active Directory / Service Principals (if used)
+
 Optional: Azure Key Vault for secrets and credentials
 
 
 
 ## Example Deployment Flow
+
 A typical path for this project:
 
 Text
@@ -242,12 +253,8 @@ ArgoCD Sync
 AKS Deployment Updated
 
 ## Conclusion
+
 This repository is a practical implementation of Azure DevOps + Docker + AKS + ArgoCD for a multi-microservice application. It is useful for learning cloud-native DevOps workflows and understanding how modern software is deployed in enterprise environments.
 
-This project is especially valuable for:
 
-DevOps engineers
-Cloud architects
-Kubernetes learners
-Azure developers
-Students preparing for real-world deployment projects
+
