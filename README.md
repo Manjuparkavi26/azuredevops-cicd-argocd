@@ -176,7 +176,7 @@ azuredevops-cicd-argocd/
 
 
 
-CI/CD Flow
+## CI/CD Flow
 The normal pipeline flow is:
 
 Code Commit
@@ -202,7 +202,7 @@ The application is available through the cluster and external access configurati
 
 
 
-Azure Resources Used
+## Azure Resources Used
 This project generally depends on the following Azure services:
 
 Azure DevOps
@@ -214,7 +214,7 @@ Optional: Azure Key Vault for secrets and credentials
 
 
 
-Example Deployment Flow
+## Example Deployment Flow
 A typical path for this project:
 
 Text
@@ -240,7 +240,8 @@ ArgoCD Sync
         |
         v
 AKS Deployment Updated
-Conclusion
+
+## Conclusion
 This repository is a practical implementation of Azure DevOps + Docker + AKS + ArgoCD for a multi-microservice application. It is useful for learning cloud-native DevOps workflows and understanding how modern software is deployed in enterprise environments.
 
 This project is especially valuable for:
