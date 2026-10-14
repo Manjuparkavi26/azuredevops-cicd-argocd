@@ -176,6 +176,7 @@ azuredevops-cicd-argocd/
 
 
 
+
 ## CI/CD Flow
 
 The normal pipeline flow is:
@@ -215,9 +216,13 @@ The application is available through the cluster and external access configurati
 This project generally depends on the following Azure services:
 
 1.Azure DevOps
+
 2.Azure Container Registry (ACR)
+
 3.Azure Kubernetes Service (AKS)
+
 4.Azure Resource Group
+
 5.Azure Active Directory / Service Principals (if used)
 
 Optional: Azure Key Vault for secrets and credentials
@@ -231,26 +236,27 @@ A typical path for this project:
 Text
 Developer Code Change
         |
-        v
+        
 Git Push
         |
-        v
+        
 Azure DevOps Pipeline
         |
-        v
+        
 Build Docker Images
         |
-        v
+        
 Push to Azure Container Registry
         |
-        v
+        
 Update Kubernetes manifests / Helm values
         |
-        v
+        
 ArgoCD Sync
         |
-        v
+        
 AKS Deployment Updated
+
 
 ## Conclusion
 
