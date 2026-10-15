@@ -62,7 +62,12 @@ This isn't an example of a properly architected perfectly designed distributed a
 example of the various types of pieces and languages you might see (queues, persistent data, etc), and how to
 deal with them in Docker at a basic level.
 
-# azuredevops-cicd-argocd-voting-app
+
+
+
+## Implementation:
+
+# Azuredevops-cicd-argocd-voting-app
 CI/CD pipeline using Azure DevOps, Docker, Kubernetes and Argo CD (Docker image,AKS,ACR,Yaml,Multi microservices-votingapp)
 
 
