@@ -67,7 +67,6 @@ deal with them in Docker at a basic level.
 
 ## Implementation:
 
-# Azuredevops-cicd-argocd-voting-app
 CI/CD pipeline using Azure DevOps, Docker, Kubernetes and Argo CD (Docker image,AKS,ACR,Yaml,Multi microservices-votingapp)
 
 
